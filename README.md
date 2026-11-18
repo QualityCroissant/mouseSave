@@ -26,3 +26,5 @@ If you are going to use it then probably put mouseSave.csh in /usr/bin and then 
 For example I have super + alt + space bound to mouseSave.csh c, and super + alt + the arrow keys bound to mouseSave.csh u, d, l, and r.
 
 If your trackpad is also broken then probably bind some stuff to at least left/right click too. I have bound super + ' to "sleep 1 && xdotool click 1" and super + # to "sleep 1 && xdotool click 2" for example.
+
+No, no AI was used to make this.
