@@ -25,21 +25,17 @@ switch ($command)
 	case "l":
 		@ mouseX = $mouseX - $distX
 		@ distX = $distX / 2
-#		@ distY = $distY / 2
 		breaksw
 	case "r":
 		@ mouseX = $mouseX + $distX
 		@ distX = $distX / 2
-#		@ distY = $distY / 2
 		breaksw
 	case "u":
 		@ mouseY = $mouseY - $distY
-#		@ distX = $distX / 2
 		@ distY = $distY / 2
 		breaksw
 	case "d":
 		@ mouseY = $mouseY + $distY
-#		@ distX = $distX / 2
 		@ distY = $distY / 2
 		breaksw
 endsw
